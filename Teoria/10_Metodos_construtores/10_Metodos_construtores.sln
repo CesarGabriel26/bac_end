@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Metodos_construtores", "10_Metodos_construtores.csproj", "{0FE22087-2489-440E-8579-01E735D51665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FE22087-2489-440E-8579-01E735D51665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE22087-2489-440E-8579-01E735D51665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE22087-2489-440E-8579-01E735D51665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE22087-2489-440E-8579-01E735D51665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4D7EEB5-7E62-451E-98A3-99244DD069E6}
+	EndGlobalSection
+EndGlobal
