@@ -9,7 +9,7 @@ class Program
     {
         Console.WriteLine(" ");
         
-        User User1 = new User("A", "u001", "asdasd@gmail.com", "abublé", "8597-58");
+        User User1 = new User("A", "u0001", "asdasd@gmail.com", "abublé", "8597-58");
 
         Produto Produto1 = new Produto("Mac", "BigMac", "p001", 15.88, 4.5);
 
