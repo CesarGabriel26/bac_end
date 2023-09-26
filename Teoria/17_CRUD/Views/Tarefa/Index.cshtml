@@ -1,0 +1,31 @@
+@model List<Tarefa>
+
+@{
+    ViewData["Title"] = "Tarefas";
+}
+
+
+<h1>Lista de tarefas</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tarefa</th>
+            <th>Concluida</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarefa in Model){
+            <tr>
+                <td>@tarefa.Descricao</td>
+                <td>@(tarefa.Concluido ? "Sim" : "Não")</td>
+                <td>
+                    <a class="btn btn-outline-warning" asp-action="Editar" asp-route-id="@tarefa.Id">Editar</a>
+                    <a class="btn btn-outline-danger" asp-action="Deletar" asp-route-id="@tarefa.Id">Deletar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a class="btn btn-outline-info" asp-action="Adicionar">Adicionar nova tarefa</a>
